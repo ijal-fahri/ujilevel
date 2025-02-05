@@ -4,31 +4,51 @@
             Admin ZOES
         </a>
     </div>
-    
-    <li class="relative">
-        <a href="#" class="block py-2 px-4 text-white hover:bg-gray-100 rounded-md hover:text-black">
-            <i class="fas fa-chart-line mr-2"></i> Data produk
-        </a>
-    </li>
+
+    <ul class="space-y-2">
+        <!-- Data Category with Dropdown -->
+        <li class="relative group">
+            <a href="#" class="block py-2 px-4 text-white hover:bg-gray-100 rounded-md hover:text-black flex justify-between items-center" onclick="toggleDropdown('categoryDropdown')">
+                <span><i class="fas fa-bars mr-2"></i> Data Category</span>
+                <i class="fas fa-chevron-down"></i>
+            </a>
+            <!-- Dropdown Content -->
+            <ul id="categoryDropdown" class="hidden pl-6 space-y-1">
+                <li>
+                    <a href="/admin/category/manage" class="block py-2 px-4 text-white hover:bg-gray-100 rounded-md hover:text-black">
+                        Kelola Category
+                    </a>
+                </li>
+            </ul>
+        </li>
+
+        <!-- Other Menu Items -->
         <li class="relative">
             <a href="#" class="block py-2 px-4 text-white hover:bg-gray-100 rounded-md hover:text-black">
-                <i class="fas fa-shopping-cart mr-2"></i> Data pesanan
+                <i class="fas fa-bars mr-2"></i> Data Pesanan
             </a>
         </li>
         <li class="relative">
             <a href="#" class="block py-2 px-4 text-white hover:bg-gray-100 rounded-md hover:text-black">
-                <i class="fas fa-file-alt mr-2"></i> Data laporan          
+                <i class="fas fa-bars mr-2"></i> Data Laporan
             </a>
         </li>
         <li class="relative">
             <a href="#" class="block py-2 px-4 text-white hover:bg-gray-100 rounded-md hover:text-black">
-                <i class="fas fa-users mr-2"></i> Data costumer
+                <i class="fas fa-bars mr-2"></i> Data Customer
             </a>
         </li>
         <li class="relative">
             <a href="#" class="block py-2 px-4 text-white hover:bg-gray-100 rounded-md hover:text-black">
-                <i class="fas fa-tag mr-2"></i> Data kupon
+                <i class="fas fa-bars mr-2"></i> Data Kupon
             </a>
         </li>
     </ul>
 </div>
+
+<script>
+    function toggleDropdown(id) {
+        const dropdown = document.getElementById(id);
+        dropdown.classList.toggle('hidden');
+    }
+</script>

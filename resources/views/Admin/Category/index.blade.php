@@ -9,6 +9,7 @@
     @endif
 
     <a href="{{ route('category.create') }}" class="btn btn-primary mb-3">Tambah Kategori</a>
+    <a href="dashboard" class="btn btn-primary mb-3">Kembali</a>
 
     <table class="table table-bordered">
         <thead>

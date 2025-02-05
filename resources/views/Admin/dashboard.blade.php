@@ -27,11 +27,11 @@
             </div>
             <div class="bg-gray-400 text-black p-6 rounded-lg shadow-md">
                 <h3 class="text-lg font-semibold">PENJUALAN BULAN INI</h3>
-                <p class="text-2xl font-bold mt-2">0%</p>
+                <p class="text-2xl font-bold mt-2">10 produk</p>
             </div>
             <div class="bg-gray-400 text-black p-6 rounded-lg shadow-md">
                 <h3 class="text-lg font-semibold">PENJUALAN TAHUN INI</h3>
-                <p class="text-2xl font-bold mt-2">0%</p>
+                <p class="text-2xl font-bold mt-2">10 prroduk</p>
             </div>
             <div class="bg-black text-white p-6 rounded-lg shadow-md">
                 <h3 class="text-lg font-semibold">PESANAN DI TUNDA</h3>
@@ -54,46 +54,6 @@
                     </thead>
                     <tbody>
                         <tr class="bg-white">
-                            <td class="px-4 py-3">Sepatu Balita</td>
-                            <td class="px-4 py-3">$345</td>
-                            <td class="px-4 py-3">08-Dec, 2021</td>
-                            <td class="px-4 py-3">
-                                <span class="bg-green-500 text-white px-3 py-1 rounded-full text-sm">proses</span>
-                            </td>
-                        </tr>
-                        <tr class="bg-gray-500 text-white">
-                            <td class="px-4 py-3">Sepatu Balita</td>
-                            <td class="px-4 py-3">$345</td>
-                            <td class="px-4 py-3">08-Dec, 2021</td>
-                            <td class="px-4 py-3">
-                                <span class="bg-green-500 text-white px-3 py-1 rounded-full text-sm">proses</span>
-                            </td>
-                        </tr>
-                        <tr class="bg-white">
-                            <td class="px-4 py-3">Sepatu Balita</td>
-                            <td class="px-4 py-3">$345</td>
-                            <td class="px-4 py-3">08-Dec, 2021</td>
-                            <td class="px-4 py-3">
-                                <span class="bg-green-500 text-white px-3 py-1 rounded-full text-sm">proses</span>
-                            </td>
-                        </tr>
-                        <tr class="bg-gray-500 text-white">
-                            <td class="px-4 py-3">Sepatu Balita</td>
-                            <td class="px-4 py-3">$345</td>
-                            <td class="px-4 py-3">08-Dec, 2021</td>
-                            <td class="px-4 py-3">
-                                <span class="bg-green-500 text-white px-3 py-1 rounded-full text-sm">proses</span>
-                            </td>
-                        </tr>
-                        <tr class="bg-white">
-                            <td class="px-4 py-3">Sepatu Balita</td>
-                            <td class="px-4 py-3">$345</td>
-                            <td class="px-4 py-3">08-Dec, 2021</td>
-                            <td class="px-4 py-3">
-                                <span class="bg-green-500 text-white px-3 py-1 rounded-full text-sm">proses</span>
-                            </td>
-                        </tr>
-                        <tr class="bg-gray-500 text-white">
                             <td class="px-4 py-3">Sepatu Balita</td>
                             <td class="px-4 py-3">$345</td>
                             <td class="px-4 py-3">08-Dec, 2021</td>
